@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chatbot</title>
+</head>
+<body>
+    <h1>Chatbot</h1>
+    <form method="post" action="{% url 'index' %}">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <input type="submit" value="Submit">
+    </form>
+
+    {% if model_response %}
+        {% if model_response == "No matching candidates found." %}
+            <p>{{ model_response }}</p>
+        {% else %}
+            <p>Matching candidates:</p>
+            <ul>
+                {% for candidate in model_response.values %}
+                    <li>{{ candidate.Name }} - {{ candidate.Skill_Similarity }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    {% endif %}
+</body>
+</html>
