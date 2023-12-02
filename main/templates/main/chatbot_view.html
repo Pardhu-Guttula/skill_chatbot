@@ -12,15 +12,20 @@
     </form>
 
     {% if model_response %}
-        {% if model_response == "No matching candidates found." %}
-            <p>{{ model_response }}</p>
-        {% else %}
+        {% if model_response.message %}
+            <p>{{ model_response.message }}</p>
+        {% endif %}
+        
+        {% if model_response.candidates %}
             <p>Matching candidates:</p>
             <ul>
-                {% for candidate in model_response.values %}
-                    <li>{{ candidate.Name }} - {{ candidate.Skill_Similarity }}</li>
+                {% for candidate in model_response.candidates %}
+                    <li>{{ candidate.EmpID }} - {{ candidate.Name }} - {{ candidate.Skill }} - {{ candidate.Location }} - {{ candidate.Experience }}- {{ candidate.Skill_Similarity }} </li>
+                    <!-- Display other candidate information as needed -->
                 {% endfor %}
             </ul>
+        {% else %}
+            <p>No matching candidates found.</p>
         {% endif %}
     {% endif %}
 </body>

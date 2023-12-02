@@ -1,0 +1,427 @@
+EmpID,Name,Skill,Location,Degree Type,Degree Field,Experience,Skill_Similarity
+E1007,ahmed ahmed,devops engineer,london,Bachelor,STAT,Mid-level,0.7116559
+E1004,john smith,devops engineer,san francisco,Master,CS,Mid-level,0.7116559
+E1002,ahmed ahmed,devops engineer,london,Bachelor,STAT,Entry-level,0.7116559
+E1007,ahmed ahmed,devops engineer,london,Bachelor,MATH,Entry-level,0.7116559
+E1006,jessica adams,devops engineer,london,Bachelor,STAT,Mid-level,0.7116559
+E1004,ahmed ahmed,devops engineer,london,Bachelor,CE,Entry-level,0.7116559
+E1006,michael kim,devops engineer,san francisco,Bachelor,IT,Entry-level,0.7116559
+E1008,jessica adams,devops engineer,london,PhD,AI,Mid-level,0.7116559
+E1006,jessica adams,devops engineer,san francisco,Bachelor,CS,Mid-level,0.7116559
+E1002,michael kim,devops engineer,los angeles,Bachelor,CE,Entry-level,0.7116559
+E1002,jessica adams,devops engineer,london,Master,DESIGN,Mid-level,0.7116559
+E1009,elena rodriguez,devops engineer,new york,Bachelor,CE,Mid-level,0.7116559
+E1010,michael kim,devops engineer,los angeles,Bachelor,STAT,Mid-level,0.7116559
+E1004,john smith,devops engineer,new york,Bachelor,CS,Mid-level,0.7116559
+E1008,alice lee,devops engineer,new york,Bachelor,STAT,Entry-level,0.7116559
+E1008,emily brown,devops engineer,london,Bachelor,GD,Mid-level,0.7116559
+E1004,john smith,devops engineer,san francisco,Bachelor,STAT,Mid-level,0.7116559
+E1007,john smith,devops engineer,new york,Bachelor,IT,Entry-level,0.7116559
+E1004,michael kim,devops engineer,san francisco,Bachelor,CE,Mid-level,0.7116559
+E1007,robert white,devops engineer,singapore,Bachelor,STAT,Mid-level,0.7116559
+E1008,jessica adams,devops engineer,san francisco,Bachelor,CS,Mid-level,0.7116559
+E1002,jessica adams,devops engineer,london,Bachelor,STAT,Mid-level,0.7116559
+E1008,jessica adams,devops engineer,london,Bachelor,STAT,Mid-level,0.7116559
+E1008,jessica adams,devops engineer,london,Bachelor,STAT,Mid-level,0.7116559
+E1007,ahmed ahmed,devops engineer,london,Bachelor,STAT,Mid-level,0.7116559
+E1008,jessica adams,devops engineer,london,Bachelor,STAT,Mid-level,0.7116559
+E1004,jessica adams,devops engineer,san francisco,Master,DESIGN,Mid-level,0.7116559
+E1006,john smith,devops engineer,singapore,Bachelor,CE,Mid-level,0.7116559
+E1005,ahmed ahmed,devops engineer,san francisco,Bachelor,IT,Entry-level,0.7116559
+E1001,emily brown,devops engineer,new york,Master,CS,Mid-level,0.7116559
+E1002,jessica adams,devops engineer,san francisco,Bachelor,STAT,Mid-level,0.7116559
+E1007,john smith,devops engineer,london,Bachelor,IT,Entry-level,0.7116559
+E1008,jessica adams,devops engineer,london,Bachelor,IT,Entry-level,0.7116559
+E1004,michael kim,devops engineer,london,Bachelor,STAT,Mid-level,0.7116559
+E1005,jessica adams,devops engineer,london,Master,CS,Mid-level,0.7116559
+E1001,elena rodriguez,devops engineer,san francisco,Master,CS,Mid-level,0.7116559
+E1006,ahmed ahmed,devops engineer,san francisco,Bachelor,STAT,Mid-level,0.7116559
+E1004,emily brown,devops engineer,london,Master,DESIGN,Mid-level,0.7116559
+E1006,sarah johnson,devops engineer,new york,Bachelor,IT,Entry-level,0.7116559
+E1008,jessica adams,devops engineer,london,Bachelor,STAT,Mid-level,0.7116559
+E1006,ahmed ahmed,devops engineer,new york,Bachelor,STAT,Entry-level,0.7116559
+E1008,michael kim,devops engineer,miami,PhD,AI,Mid-level,0.7116559
+E1004,michael kim,devops engineer,london,Bachelor,CE,Mid-level,0.7116559
+E1008,jessica adams,devops engineer,london,Bachelor,MATH,Mid-level,0.7116559
+E1002,michael kim,devops engineer,san francisco,PhD,AI,Mid-level,0.7116559
+E1001,ahmed ahmed,devops engineer,new york,Bachelor,MATH,Mid-level,0.7116559
+E1007,ahmed ahmed,devops engineer,london,Master,DESIGN,Entry-level,0.7116559
+E1001,robert white,devops engineer,singapore,Bachelor,GD,Mid-level,0.7116559
+E1004,ahmed ahmed,devops engineer,london,Bachelor,IT,Entry-level,0.7116559
+E1006,jessica adams,devops engineer,new york,Bachelor,STAT,Mid-level,0.7116559
+E1006,michael kim,devops engineer,san francisco,Bachelor,IT,Entry-level,0.7116559
+E1008,michael kim,devops engineer,london,Bachelor,CS,Mid-level,0.7116559
+E1008,jessica adams,devops engineer,london,Bachelor,CS,Mid-level,0.7116559
+E1006,jessica adams,devops engineer,london,Bachelor,IT,Mid-level,0.7116559
+E1005,robert white,devops engineer,london,Bachelor,CE,Entry-level,0.7116559
+E1006,david chen,devops engineer,miami,Master,CS,Mid-level,0.7116559
+E1005,emily brown,devops engineer,singapore,Bachelor,GD,Mid-level,0.7116559
+E1004,emily brown,devops engineer,san francisco,Bachelor,CS,Mid-level,0.7116559
+E1006,ahmed ahmed,devops engineer,london,Bachelor,IT,Entry-level,0.7116559
+E1007,michael kim,devops engineer,singapore,Bachelor,CE,Mid-level,0.7116559
+E1008,jessica adams,devops engineer,san francisco,Bachelor,STAT,Mid-level,0.7116559
+E1010,michael kim,devops engineer,los angeles,PhD,AI,Mid-level,0.7116559
+E1002,ahmed ahmed,devops engineer,london,Bachelor,STAT,Entry-level,0.7116559
+E1003,emily brown,devops engineer,los angeles,Bachelor,CE,Mid-level,0.7116559
+E1008,michael kim,devops engineer,singapore,Bachelor,CE,Mid-level,0.7116559
+E1004,emily brown,devops engineer,singapore,Bachelor,STAT,Entry-level,0.7116559
+E1004,jessica adams,devops engineer,san francisco,Bachelor,CS,Mid-level,0.7116559
+E1006,ahmed ahmed,devops engineer,new york,Bachelor,STAT,Entry-level,0.7116559
+E1003,ahmed ahmed,devops engineer,singapore,PhD,AI,Mid-level,0.7116559
+E1007,michael kim,devops engineer,new york,Bachelor,IT,Mid-level,0.7116559
+E1008,jessica adams,devops engineer,san francisco,Bachelor,CS,Mid-level,0.7116559
+E1006,emily brown,devops engineer,san francisco,Bachelor,CS,Mid-level,0.7116559
+E1004,michael kim,devops engineer,san francisco,Bachelor,IT,Mid-level,0.7116559
+E1001,emily brown,devops engineer,london,Master,DESIGN,Entry-level,0.7116559
+E1001,jessica adams,devops engineer,san francisco,Bachelor,GD,Mid-level,0.7116559
+E1004,emily brown,devops engineer,london,Bachelor,CE,Entry-level,0.7116559
+E1008,ahmed ahmed,devops engineer,london,Bachelor,IT,Mid-level,0.7116559
+E1008,jessica adams,devops engineer,london,Bachelor,CS,Mid-level,0.7116559
+E1002,ahmed ahmed,devops engineer,london,Bachelor,STAT,Mid-level,0.7116559
+E1008,michael kim,devops engineer,san francisco,Bachelor,CS,Mid-level,0.7116559
+E1005,ahmed ahmed,devops engineer,singapore,Bachelor,CE,Mid-level,0.7116559
+E1001,emily brown,devops engineer,london,Bachelor,STAT,Mid-level,0.7116559
+E1004,jessica adams,devops engineer,singapore,PhD,AI,Mid-level,0.7116559
+E1008,jessica adams,devops engineer,los angeles,Bachelor,CS,Mid-level,0.7116559
+E1006,ahmed ahmed,devops engineer,london,Bachelor,STAT,Entry-level,0.7116559
+E1004,emily brown,devops engineer,new york,Master,DESIGN,Mid-level,0.7116559
+E1004,emily brown,devops engineer,san francisco,Master,DESIGN,Entry-level,0.7116559
+E1006,robert white,devops engineer,singapore,Bachelor,STAT,Mid-level,0.7116559
+E1002,alice lee,devops engineer,san francisco,Bachelor,IT,Mid-level,0.7116559
+E1008,michael kim,devops engineer,london,Bachelor,STAT,Mid-level,0.7116559
+E1008,elena rodriguez,devops engineer,new york,Master,CS,Entry-level,0.7116559
+E1004,jessica adams,devops engineer,san francisco,Bachelor,CS,Mid-level,0.7116559
+E1002,ahmed ahmed,devops engineer,singapore,Bachelor,MATH,Entry-level,0.7116559
+E1008,ahmed ahmed,devops engineer,new york,Bachelor,STAT,Mid-level,0.7116559
+E1009,ahmed ahmed,devops engineer,san francisco,Bachelor,STAT,Mid-level,0.7116559
+E1007,ahmed ahmed,devops engineer,london,Bachelor,STAT,Entry-level,0.7116559
+E1008,ahmed ahmed,devops engineer,london,Bachelor,STAT,Entry-level,0.7116559
+E1009,emily brown,devops engineer,los angeles,Bachelor,IT,Entry-level,0.7116559
+E1003,john smith,devops engineer,singapore,Bachelor,GD,Mid-level,0.7116559
+E1008,jessica adams,devops engineer,london,Bachelor,CS,Mid-level,0.7116559
+E1008,ahmed ahmed,devops engineer,london,Bachelor,GD,Entry-level,0.7116559
+E1004,emily brown,devops engineer,san francisco,Bachelor,STAT,Mid-level,0.7116559
+E1004,emily brown,devops engineer,london,Bachelor,STAT,Entry-level,0.7116559
+E1002,emily brown,devops engineer,san francisco,Bachelor,STAT,Entry-level,0.7116559
+E1008,jessica adams,devops engineer,london,Bachelor,IT,Mid-level,0.7116559
+E1006,david chen,devops engineer,london,Master,DESIGN,Mid-level,0.7116559
+E1008,jessica adams,devops engineer,london,Bachelor,CS,Mid-level,0.7116559
+E1002,ahmed ahmed,devops engineer,london,Bachelor,MATH,Entry-level,0.7116559
+E1008,jessica adams,devops engineer,san francisco,Bachelor,IT,Mid-level,0.7116559
+E1006,jessica adams,devops engineer,singapore,Bachelor,CE,Mid-level,0.7116559
+E1008,jessica adams,devops engineer,london,Bachelor,CS,Mid-level,0.7116559
+E1002,ahmed ahmed,devops engineer,london,Bachelor,STAT,Entry-level,0.7116559
+E1007,ahmed ahmed,devops engineer,new york,Bachelor,STAT,Mid-level,0.7116559
+E1008,michael kim,devops engineer,los angeles,Bachelor,STAT,Entry-level,0.7116559
+E1008,emily brown,devops engineer,san francisco,Bachelor,STAT,Mid-level,0.7116559
+E1008,alice lee,devops engineer,san francisco,Bachelor,CS,Mid-level,0.7116559
+E1006,emily brown,devops engineer,singapore,Bachelor,STAT,Mid-level,0.7116559
+E1005,jessica adams,devops engineer,london,Bachelor,STAT,Mid-level,0.7116559
+E1008,jessica adams,devops engineer,san francisco,Bachelor,STAT,Mid-level,0.7116559
+E1008,jessica adams,devops engineer,london,Bachelor,STAT,Entry-level,0.7116559
+E1008,jessica adams,devops engineer,london,Bachelor,STAT,Mid-level,0.7116559
+E1008,jessica adams,devops engineer,london,Bachelor,STAT,Mid-level,0.7116559
+E1010,michael kim,devops engineer,los angeles,Bachelor,GD,Mid-level,0.7116559
+E1007,jessica adams,devops engineer,san francisco,Bachelor,GD,Mid-level,0.7116559
+E1006,jessica adams,devops engineer,san francisco,Bachelor,CS,Mid-level,0.7116559
+E1007,alice lee,devops engineer,san francisco,PhD,AI,Entry-level,0.7116559
+E1008,jessica adams,devops engineer,san francisco,Bachelor,CS,Mid-level,0.7116559
+E1007,ahmed ahmed,devops engineer,new york,Bachelor,STAT,Entry-level,0.7116559
+E1006,jessica adams,devops engineer,london,Bachelor,STAT,Mid-level,0.7116559
+E1008,jessica adams,devops engineer,london,Bachelor,CE,Mid-level,0.7116559
+E1008,ahmed ahmed,devops engineer,london,Bachelor,STAT,Mid-level,0.7116559
+E1010,michael kim,devops engineer,los angeles,PhD,AI,Mid-level,0.7116559
+E1006,ahmed ahmed,devops engineer,london,Bachelor,MATH,Entry-level,0.7116559
+E1002,jessica adams,devops engineer,san francisco,Bachelor,STAT,Mid-level,0.7116559
+E1004,ahmed ahmed,devops engineer,new york,Bachelor,STAT,Entry-level,0.7116559
+E1009,john smith,devops engineer,singapore,Master,EE,Mid-level,0.7116559
+E1004,emily brown,devops engineer,san francisco,Bachelor,STAT,Entry-level,0.7116559
+E1008,jessica adams,devops engineer,san francisco,Bachelor,STAT,Mid-level,0.7116559
+E1004,jessica adams,devops engineer,los angeles,Bachelor,STAT,Mid-level,0.7116559
+E1006,jessica adams,devops engineer,los angeles,Master,CS,Mid-level,0.7116559
+E1005,michael kim,devops engineer,london,Bachelor,IT,Mid-level,0.7116559
+E1008,ahmed ahmed,devops engineer,london,Bachelor,CS,Mid-level,0.7116559
+E1004,jessica adams,devops engineer,london,Bachelor,STAT,Mid-level,0.7116559
+E1007,david chen,devops engineer,san francisco,Bachelor,STAT,Entry-level,0.7116559
+E1004,emily brown,devops engineer,san francisco,Bachelor,STAT,Mid-level,0.7116559
+E1006,john smith,devops engineer,new york,Bachelor,IT,Entry-level,0.7116559
+E1008,michael kim,devops engineer,new york,Bachelor,CE,Mid-level,0.7116559
+E1006,emily brown,devops engineer,new york,Bachelor,IT,Entry-level,0.7116559
+E1002,emily brown,devops engineer,los angeles,PhD,AI,Entry-level,0.7116559
+E1009,elena rodriguez,devops engineer,new york,Bachelor,IT,Mid-level,0.7116559
+E1008,jessica adams,devops engineer,san francisco,Bachelor,IT,Mid-level,0.7116559
+E1005,ahmed ahmed,devops engineer,san francisco,Bachelor,IT,Entry-level,0.7116559
+E1008,jessica adams,devops engineer,san francisco,Bachelor,CS,Mid-level,0.7116559
+E1008,jessica adams,devops engineer,london,Bachelor,STAT,Mid-level,0.7116559
+E1010,robert white,devops engineer,los angeles,Bachelor,CE,Mid-level,0.7116559
+E1001,emily brown,devops engineer,san francisco,Master,DESIGN,Mid-level,0.7116559
+E1008,ahmed ahmed,devops engineer,san francisco,Bachelor,STAT,Mid-level,0.7116559
+E1005,ahmed ahmed,devops engineer,new york,Bachelor,STAT,Entry-level,0.7116559
+E1002,john smith,devops engineer,new york,Bachelor,STAT,Entry-level,0.7116559
+E1008,emily brown,devops engineer,san francisco,Bachelor,CS,Mid-level,0.7116559
+E1004,jessica adams,devops engineer,san francisco,Bachelor,CS,Mid-level,0.7116559
+E1004,alice lee,devops engineer,london,PhD,AI,Entry-level,0.7116559
+E1010,jessica adams,devops engineer,london,Bachelor,CS,Mid-level,0.7116559
+E1006,jessica adams,devops engineer,london,Bachelor,CS,Mid-level,0.7116559
+E1008,jessica adams,devops engineer,san francisco,Bachelor,CS,Mid-level,0.7116559
+E1008,michael kim,devops engineer,san francisco,Bachelor,STAT,Mid-level,0.7116559
+E1010,michael kim,devops engineer,new york,PhD,AI,Mid-level,0.7116559
+E1009,robert white,devops engineer,singapore,Bachelor,IT,Mid-level,0.7116559
+E1006,ahmed ahmed,devops engineer,london,Bachelor,CE,Entry-level,0.7116559
+E1002,robert white,devops engineer,singapore,Bachelor,CE,Mid-level,0.7116559
+E1008,alice lee,devops engineer,san francisco,Bachelor,MATH,Mid-level,0.7116559
+E1002,ahmed ahmed,devops engineer,london,Bachelor,STAT,Mid-level,0.7116559
+E1008,jessica adams,devops engineer,san francisco,Bachelor,STAT,Mid-level,0.7116559
+E1008,jessica adams,devops engineer,san francisco,Bachelor,STAT,Entry-level,0.7116559
+E1008,jessica adams,devops engineer,san francisco,Bachelor,CS,Mid-level,0.7116559
+E1008,john smith,devops engineer,san francisco,Bachelor,CE,Mid-level,0.7116559
+E1008,emily brown,devops engineer,san francisco,Bachelor,STAT,Mid-level,0.7116559
+E1008,michael kim,devops engineer,london,Bachelor,CE,Mid-level,0.7116559
+E1004,emily brown,devops engineer,new york,Bachelor,CE,Mid-level,0.7116559
+E1002,jessica adams,devops engineer,san francisco,Bachelor,STAT,Mid-level,0.7116559
+E1005,emily brown,devops engineer,san francisco,Bachelor,STAT,Mid-level,0.7116559
+E1001,michael kim,devops engineer,los angeles,Bachelor,CE,Entry-level,0.7116559
+E1007,alice lee,devops engineer,london,Bachelor,GD,Mid-level,0.7116559
+E1008,ahmed ahmed,devops engineer,london,Bachelor,CS,Mid-level,0.7116559
+E1008,jessica adams,devops engineer,san francisco,Bachelor,CE,Mid-level,0.7116559
+E1006,ahmed ahmed,devops engineer,london,Bachelor,IT,Entry-level,0.7116559
+E1008,ahmed ahmed,devops engineer,london,Bachelor,STAT,Entry-level,0.7116559
+E1008,jessica adams,devops engineer,london,Bachelor,STAT,Mid-level,0.7116559
+E1004,jessica adams,devops engineer,san francisco,Bachelor,STAT,Mid-level,0.7116559
+E1008,ahmed ahmed,devops engineer,new york,Bachelor,CS,Mid-level,0.7116559
+E1004,emily brown,devops engineer,san francisco,Bachelor,CS,Entry-level,0.7116559
+E1002,michael kim,devops engineer,san francisco,Bachelor,STAT,Mid-level,0.7116559
+E1002,ahmed ahmed,devops engineer,london,Bachelor,STAT,Entry-level,0.7116559
+E1001,jessica adams,devops engineer,san francisco,Bachelor,STAT,Entry-level,0.7116559
+E1008,emily brown,devops engineer,san francisco,Bachelor,STAT,Mid-level,0.7116559
+E1006,elena rodriguez,devops engineer,san francisco,Bachelor,CE,Mid-level,0.7116559
+E1008,jessica adams,devops engineer,los angeles,Bachelor,GD,Mid-level,0.7116559
+E1004,jessica adams,devops engineer,san francisco,Bachelor,CS,Mid-level,0.7116559
+E1009,jessica adams,devops engineer,london,Bachelor,CE,Mid-level,0.7116559
+E1004,jessica adams,devops engineer,san francisco,Bachelor,CS,Mid-level,0.7116559
+E1008,jessica adams,devops engineer,san francisco,Bachelor,STAT,Mid-level,0.7116559
+E1006,john smith,devops engineer,san francisco,Bachelor,CE,Entry-level,0.7116559
+E1002,emily brown,devops engineer,london,Master,CS,Mid-level,0.7116559
+E1004,jessica adams,devops engineer,london,Bachelor,STAT,Mid-level,0.7116559
+E1006,david chen,devops engineer,singapore,Bachelor,CE,Mid-level,0.7116559
+E1007,michael kim,devops engineer,san francisco,Bachelor,GD,Mid-level,0.7116559
+E1004,emily brown,devops engineer,london,Bachelor,STAT,Mid-level,0.7116559
+E1008,ahmed ahmed,devops engineer,london,Bachelor,MATH,Mid-level,0.7116559
+E1008,ahmed ahmed,devops engineer,london,Bachelor,STAT,Mid-level,0.7116559
+E1006,alice lee,devops engineer,london,PhD,AI,Mid-level,0.7116559
+E1008,jessica adams,devops engineer,san francisco,Bachelor,CS,Mid-level,0.7116559
+E1008,jessica adams,devops engineer,san francisco,Bachelor,GD,Mid-level,0.7116559
+E1002,michael kim,devops engineer,los angeles,PhD,AI,Entry-level,0.7116559
+E1002,ahmed ahmed,devops engineer,london,Bachelor,STAT,Entry-level,0.7116559
+E1009,emily brown,devops engineer,new york,Bachelor,MATH,Entry-level,0.7116559
+E1007,michael kim,devops engineer,london,Bachelor,STAT,Mid-level,0.7116559
+E1010,robert white,devops engineer,miami,Bachelor,STAT,Mid-level,0.7116559
+E1009,michael kim,devops engineer,los angeles,Master,EE,Mid-level,0.7116559
+E1006,alice lee,devops engineer,london,Bachelor,CE,Mid-level,0.7116559
+E1006,emily brown,devops engineer,miami,Master,DESIGN,Mid-level,0.7116559
+E1008,ahmed ahmed,devops engineer,london,Bachelor,STAT,Mid-level,0.7116559
+E1003,michael kim,devops engineer,los angeles,PhD,AI,Entry-level,0.7116559
+E1002,ahmed ahmed,devops engineer,london,Bachelor,MATH,Entry-level,0.7116559
+E1002,michael kim,devops engineer,london,Bachelor,STAT,Entry-level,0.7116559
+E1002,ahmed ahmed,devops engineer,new york,Bachelor,IT,Mid-level,0.7116559
+E1004,michael kim,devops engineer,san francisco,PhD,AI,Entry-level,0.7116559
+E1004,jessica adams,devops engineer,new york,Bachelor,STAT,Entry-level,0.7116559
+E1002,ahmed ahmed,devops engineer,san francisco,Bachelor,IT,Mid-level,0.7116559
+E1004,emily brown,devops engineer,london,Bachelor,STAT,Mid-level,0.7116559
+E1009,michael kim,devops engineer,london,Bachelor,CS,Mid-level,0.7116559
+E1008,emily brown,devops engineer,london,Bachelor,STAT,Mid-level,0.7116559
+E1006,ahmed ahmed,devops engineer,london,Bachelor,IT,Entry-level,0.7116559
+E1004,robert white,devops engineer,san francisco,Bachelor,CE,Entry-level,0.7116559
+E1006,john smith,devops engineer,london,PhD,AI,Mid-level,0.7116559
+E1008,michael kim,devops engineer,new york,Bachelor,GD,Mid-level,0.7116559
+E1006,jessica adams,devops engineer,san francisco,Bachelor,STAT,Entry-level,0.7116559
+E1003,david chen,devops engineer,singapore,Master,DESIGN,Mid-level,0.7116559
+E1010,michael kim,devops engineer,los angeles,Bachelor,IT,Mid-level,0.7116559
+E1008,michael kim,devops engineer,new york,PhD,AI,Mid-level,0.7116559
+E1008,jessica adams,devops engineer,los angeles,Bachelor,STAT,Mid-level,0.7116559
+E1002,emily brown,devops engineer,san francisco,Bachelor,IT,Mid-level,0.7116559
+E1008,jessica adams,devops engineer,san francisco,Bachelor,CS,Mid-level,0.7116559
+E1010,michael kim,devops engineer,los angeles,Bachelor,CE,Mid-level,0.7116559
+E1010,robert white,devops engineer,miami,PhD,AI,Mid-level,0.7116559
+E1008,alice lee,devops engineer,san francisco,Bachelor,CS,Entry-level,0.7116559
+E1006,jessica adams,devops engineer,san francisco,Master,CS,Mid-level,0.7116559
+E1004,emily brown,devops engineer,sydney,Master,CS,Mid-level,0.7116559
+E1009,robert white,devops engineer,new york,Master,DESIGN,Entry-level,0.7116559
+E1008,jessica adams,devops engineer,san francisco,Bachelor,STAT,Mid-level,0.7116559
+E1007,john smith,devops engineer,los angeles,Master,DESIGN,Entry-level,0.7116559
+E1001,john smith,devops engineer,new york,Master,EE,Entry-level,0.7116559
+E1008,michael kim,devops engineer,london,Bachelor,CS,Mid-level,0.7116559
+E1008,ahmed ahmed,devops engineer,new york,Bachelor,IT,Entry-level,0.7116559
+E1007,jessica adams,devops engineer,san francisco,Bachelor,STAT,Mid-level,0.7116559
+E1010,michael kim,devops engineer,los angeles,Bachelor,IT,Mid-level,0.7116559
+E1004,jessica adams,devops engineer,san francisco,Bachelor,STAT,Mid-level,0.7116559
+E1005,jessica adams,devops engineer,san francisco,PhD,AI,Mid-level,0.7116559
+E1004,emily brown,devops engineer,san francisco,Master,DESIGN,Mid-level,0.7116559
+E1008,ahmed ahmed,devops engineer,london,Bachelor,STAT,Mid-level,0.7116559
+E1004,michael kim,devops engineer,san francisco,Bachelor,CS,Mid-level,0.7116559
+E1002,michael kim,devops engineer,san francisco,Bachelor,IT,Mid-level,0.7116559
+E1004,jessica adams,devops engineer,london,Bachelor,STAT,Mid-level,0.7116559
+E1008,john smith,devops engineer,san francisco,Bachelor,IT,Mid-level,0.7116559
+E1008,robert white,devops engineer,london,PhD,AI,Mid-level,0.7116559
+E1002,ahmed ahmed,devops engineer,london,Bachelor,STAT,Mid-level,0.7116559
+E1003,robert white,devops engineer,singapore,Bachelor,CE,Mid-level,0.7116559
+E1008,michael kim,devops engineer,london,Bachelor,CS,Mid-level,0.7116559
+E1010,michael kim,devops engineer,singapore,PhD,AI,Mid-level,0.7116559
+E1004,michael kim,devops engineer,new york,PhD,AI,Entry-level,0.7116559
+E1008,jessica adams,devops engineer,new york,Bachelor,GD,Mid-level,0.7116559
+E1002,jessica adams,devops engineer,london,Bachelor,STAT,Mid-level,0.7116559
+E1008,john smith,devops engineer,los angeles,Bachelor,GD,Mid-level,0.7116559
+E1006,jessica adams,devops engineer,london,Bachelor,CS,Mid-level,0.7116559
+E1008,jessica adams,devops engineer,singapore,Bachelor,GD,Mid-level,0.7116559
+E1006,ahmed ahmed,devops engineer,london,Bachelor,STAT,Entry-level,0.7116559
+E1008,david chen,devops engineer,san francisco,Bachelor,STAT,Mid-level,0.7116559
+E1004,michael kim,devops engineer,san francisco,Bachelor,IT,Mid-level,0.7116559
+E1006,jessica adams,devops engineer,san francisco,Bachelor,STAT,Mid-level,0.7116559
+E1004,emily brown,devops engineer,miami,Bachelor,STAT,Mid-level,0.7116559
+E1004,emily brown,devops engineer,san francisco,Bachelor,STAT,Mid-level,0.7116559
+E1003,ahmed ahmed,devops engineer,los angeles,Bachelor,IT,Mid-level,0.7116559
+E1006,michael kim,devops engineer,london,Bachelor,CE,Mid-level,0.7116559
+E1008,michael kim,devops engineer,london,Bachelor,CS,Mid-level,0.7116559
+E1001,emily brown,devops engineer,new york,Bachelor,IT,Entry-level,0.7116559
+E1008,michael kim,devops engineer,new york,Bachelor,STAT,Mid-level,0.7116559
+E1007,ahmed ahmed,devops engineer,london,Bachelor,MATH,Entry-level,0.7116559
+E1004,jessica adams,devops engineer,london,Bachelor,STAT,Mid-level,0.7116559
+E1008,jessica adams,devops engineer,san francisco,Bachelor,STAT,Mid-level,0.7116559
+E1001,michael kim,devops engineer,london,PhD,AI,Mid-level,0.7116559
+E1008,jessica adams,devops engineer,san francisco,Bachelor,STAT,Mid-level,0.7116559
+E1008,ahmed ahmed,devops engineer,london,Bachelor,IT,Mid-level,0.7116559
+E1007,robert white,devops engineer,los angeles,Bachelor,STAT,Mid-level,0.7116559
+E1002,jessica adams,devops engineer,london,Bachelor,STAT,Entry-level,0.7116559
+E1006,sarah johnson,devops engineer,london,Bachelor,CE,Entry-level,0.7116559
+E1002,ahmed ahmed,devops engineer,london,Bachelor,STAT,Entry-level,0.7116559
+E1008,jessica adams,devops engineer,london,Bachelor,STAT,Entry-level,0.7116559
+E1008,jessica adams,devops engineer,san francisco,Bachelor,STAT,Entry-level,0.7116559
+E1004,emily brown,devops engineer,san francisco,Bachelor,STAT,Entry-level,0.7116559
+E1008,michael kim,devops engineer,london,Bachelor,IT,Mid-level,0.7116559
+E1009,michael kim,devops engineer,new york,Bachelor,STAT,Mid-level,0.7116559
+E1002,ahmed ahmed,devops engineer,san francisco,Bachelor,STAT,Mid-level,0.7116559
+E1006,emily brown,devops engineer,miami,Master,CS,Mid-level,0.7116559
+E1005,john smith,devops engineer,miami,PhD,AI,Mid-level,0.7116559
+E1010,david chen,devops engineer,london,PhD,AI,Mid-level,0.7116559
+E1007,robert white,devops engineer,singapore,Bachelor,CE,Entry-level,0.7116559
+E1002,emily brown,devops engineer,new york,Bachelor,IT,Mid-level,0.7116559
+E1001,john smith,devops engineer,new york,Master,CS,Mid-level,0.7116559
+E1002,ahmed ahmed,devops engineer,new york,Bachelor,STAT,Mid-level,0.7116559
+E1002,ahmed ahmed,devops engineer,los angeles,PhD,AI,Entry-level,0.7116559
+E1008,michael kim,devops engineer,san francisco,PhD,AI,Mid-level,0.7116559
+E1008,ahmed ahmed,devops engineer,london,Bachelor,STAT,Mid-level,0.7116559
+E1004,emily brown,devops engineer,singapore,Bachelor,STAT,Mid-level,0.7116559
+E1008,david chen,devops engineer,london,Bachelor,STAT,Mid-level,0.7116559
+E1006,robert white,devops engineer,new york,Bachelor,STAT,Entry-level,0.7116559
+E1006,jessica adams,devops engineer,san francisco,Bachelor,STAT,Mid-level,0.7116559
+E1010,emily brown,devops engineer,san francisco,Bachelor,STAT,Mid-level,0.7116559
+E1008,ahmed ahmed,devops engineer,san francisco,Bachelor,CS,Entry-level,0.7116559
+E1006,david chen,devops engineer,new york,Bachelor,CS,Mid-level,0.7116559
+E1008,michael kim,devops engineer,miami,PhD,AI,Mid-level,0.7116559
+E1002,ahmed ahmed,devops engineer,london,Bachelor,MATH,Entry-level,0.7116559
+E1006,ahmed ahmed,devops engineer,london,Bachelor,STAT,Entry-level,0.7116559
+E1008,michael kim,devops engineer,san francisco,Bachelor,STAT,Entry-level,0.7116559
+E1004,michael kim,devops engineer,los angeles,Master,DESIGN,Entry-level,0.7116559
+E1006,john smith,devops engineer,singapore,Bachelor,STAT,Mid-level,0.7116559
+E1008,david chen,devops engineer,san francisco,Bachelor,CE,Mid-level,0.7116559
+E1004,emily brown,devops engineer,sydney,Master,DESIGN,Mid-level,0.7116559
+E1005,jessica adams,devops engineer,sydney,Bachelor,IT,Mid-level,0.7116559
+E1008,alice lee,devops engineer,london,Bachelor,CE,Entry-level,0.7116559
+E1004,ahmed ahmed,devops engineer,london,Bachelor,CS,Mid-level,0.7116559
+E1004,jessica adams,devops engineer,san francisco,Bachelor,STAT,Mid-level,0.7116559
+E1010,michael kim,devops engineer,singapore,PhD,AI,Entry-level,0.7116559
+E1006,ahmed ahmed,devops engineer,new york,Bachelor,STAT,Mid-level,0.7116559
+E1004,jessica adams,devops engineer,san francisco,Bachelor,CS,Entry-level,0.7116559
+E1006,emily brown,devops engineer,san francisco,PhD,AI,Entry-level,0.7116559
+E1006,emily brown,devops engineer,london,Bachelor,IT,Mid-level,0.7116559
+E1002,ahmed ahmed,devops engineer,london,PhD,AI,Entry-level,0.7116559
+E1008,jessica adams,devops engineer,london,Bachelor,CS,Entry-level,0.7116559
+E1010,ahmed ahmed,devops engineer,miami,Bachelor,GD,Entry-level,0.7116559
+E1006,ahmed ahmed,devops engineer,new york,Bachelor,STAT,Entry-level,0.7116559
+E1001,michael kim,devops engineer,london,PhD,AI,Mid-level,0.7116559
+E1008,jessica adams,devops engineer,san francisco,Bachelor,STAT,Mid-level,0.7116559
+E1003,robert white,devops engineer,singapore,Bachelor,GD,Mid-level,0.7116559
+E1001,emily brown,devops engineer,new york,Bachelor,IT,Entry-level,0.7116559
+E1010,ahmed ahmed,devops engineer,san francisco,PhD,AI,Mid-level,0.7116559
+E1002,jessica adams,devops engineer,san francisco,Bachelor,STAT,Entry-level,0.7116559
+E1002,jessica adams,devops engineer,san francisco,Master,DESIGN,Mid-level,0.7116559
+E1004,ahmed ahmed,devops engineer,san francisco,Bachelor,STAT,Mid-level,0.7116559
+E1008,jessica adams,devops engineer,san francisco,Bachelor,CS,Mid-level,0.7116559
+E1003,robert white,devops engineer,los angeles,Bachelor,IT,Entry-level,0.7116559
+E1001,robert white,devops engineer,new york,Bachelor,IT,Entry-level,0.7116559
+E1008,jessica adams,devops engineer,san francisco,Bachelor,CS,Mid-level,0.7116559
+E1002,john smith,devops engineer,london,Bachelor,STAT,Mid-level,0.7116559
+E1006,robert white,devops engineer,singapore,Bachelor,STAT,Entry-level,0.7116559
+E1010,michael kim,devops engineer,los angeles,PhD,AI,Mid-level,0.7116559
+E1004,emily brown,devops engineer,los angeles,PhD,AI,Mid-level,0.7116559
+E1002,alice lee,devops engineer,london,Bachelor,CS,Mid-level,0.7116559
+E1008,jessica adams,devops engineer,new york,Bachelor,IT,Mid-level,0.7116559
+E1004,jessica adams,devops engineer,london,Bachelor,GD,Mid-level,0.7116559
+E1002,jessica adams,devops engineer,san francisco,Bachelor,STAT,Mid-level,0.7116559
+E1010,ahmed ahmed,devops engineer,london,Bachelor,MATH,Entry-level,0.7116559
+E1008,john smith,devops engineer,london,Bachelor,MATH,Mid-level,0.7116559
+E1008,jessica adams,devops engineer,san francisco,Bachelor,IT,Mid-level,0.7116559
+E1008,emily brown,devops engineer,san francisco,Bachelor,STAT,Entry-level,0.7116559
+E1006,ahmed ahmed,devops engineer,new york,Bachelor,STAT,Entry-level,0.7116559
+E1008,emily brown,devops engineer,sydney,Bachelor,STAT,Mid-level,0.7116559
+E1008,jessica adams,devops engineer,london,Bachelor,IT,Entry-level,0.7116559
+E1006,john smith,devops engineer,london,Bachelor,MATH,Mid-level,0.7116559
+E1006,michael kim,devops engineer,new york,Master,DESIGN,Mid-level,0.7116559
+E1001,emily brown,devops engineer,singapore,Master,DESIGN,Mid-level,0.7116559
+E1008,emily brown,devops engineer,london,Bachelor,STAT,Entry-level,0.7116559
+E1008,emily brown,devops engineer,new york,Bachelor,STAT,Mid-level,0.7116559
+E1008,jessica adams,devops engineer,san francisco,Bachelor,IT,Mid-level,0.7116559
+E1004,emily brown,devops engineer,san francisco,Bachelor,STAT,Mid-level,0.7116559
+E1008,jessica adams,devops engineer,san francisco,Bachelor,CS,Mid-level,0.7116559
+E1001,jessica adams,devops engineer,london,Bachelor,GD,Mid-level,0.7116559
+E1006,jessica adams,devops engineer,miami,PhD,AI,Mid-level,0.7116559
+E1008,jessica adams,devops engineer,san francisco,Bachelor,STAT,Mid-level,0.7116559
+E1009,sarah johnson,devops engineer,new york,Bachelor,IT,Mid-level,0.7116559
+E1010,robert white,devops engineer,singapore,Bachelor,CE,Mid-level,0.7116559
+E1005,emily brown,devops engineer,san francisco,Bachelor,CS,Mid-level,0.7116559
+E1001,elena rodriguez,devops engineer,san francisco,Bachelor,CE,Mid-level,0.7116559
+E1004,robert white,devops engineer,singapore,Bachelor,IT,Mid-level,0.7116559
+E1006,robert white,devops engineer,new york,Bachelor,IT,Entry-level,0.7116559
+E1003,robert white,devops engineer,singapore,Bachelor,CE,Mid-level,0.7116559
+E1008,ahmed ahmed,devops engineer,london,Bachelor,STAT,Mid-level,0.7116559
+E1008,michael kim,devops engineer,los angeles,Bachelor,STAT,Mid-level,0.7116559
+E1006,alice lee,devops engineer,new york,Bachelor,CS,Mid-level,0.7116559
+E1006,ahmed ahmed,devops engineer,london,Bachelor,STAT,Mid-level,0.7116559
+E1001,sarah johnson,devops engineer,san francisco,Bachelor,STAT,Mid-level,0.7116559
+E1006,emily brown,devops engineer,los angeles,Bachelor,GD,Entry-level,0.7116559
+E1008,jessica adams,devops engineer,london,Bachelor,IT,Mid-level,0.7116559
+E1008,ahmed ahmed,devops engineer,london,Bachelor,CS,Mid-level,0.7116559
+E1002,emily brown,devops engineer,miami,Bachelor,CE,Mid-level,0.7116559
+E1008,ahmed ahmed,devops engineer,san francisco,PhD,AI,Mid-level,0.7116559
+E1008,jessica adams,devops engineer,san francisco,Bachelor,STAT,Mid-level,0.7116559
+E1003,robert white,devops engineer,new york,Bachelor,CE,Mid-level,0.7116559
+E1008,jessica adams,devops engineer,london,Bachelor,CS,Mid-level,0.7116559
+E1007,jessica adams,devops engineer,san francisco,Master,DESIGN,Mid-level,0.7116559
+E1003,john smith,devops engineer,singapore,Bachelor,CE,Mid-level,0.7116559
+E1006,jessica adams,devops engineer,san francisco,Bachelor,CS,Mid-level,0.7116559
+E1005,michael kim,devops engineer,london,Bachelor,GD,Mid-level,0.7116559
+E1004,jessica adams,devops engineer,san francisco,Bachelor,STAT,Mid-level,0.7116559
+E1008,ahmed ahmed,devops engineer,london,Bachelor,STAT,Entry-level,0.7116559
+E1004,jessica adams,devops engineer,singapore,Bachelor,STAT,Mid-level,0.7116559
+E1008,ahmed ahmed,devops engineer,miami,Bachelor,CS,Mid-level,0.7116559
+E1008,jessica adams,devops engineer,san francisco,Bachelor,STAT,Mid-level,0.7116559
+E1008,jessica adams,devops engineer,san francisco,Bachelor,CE,Mid-level,0.7116559
+E1006,michael kim,devops engineer,san francisco,PhD,AI,Mid-level,0.7116559
+E1004,jessica adams,devops engineer,london,Bachelor,STAT,Entry-level,0.7116559
+E1002,ahmed ahmed,devops engineer,london,Bachelor,IT,Mid-level,0.7116559
+E1006,robert white,devops engineer,miami,PhD,AI,Entry-level,0.7116559
+E1004,ahmed ahmed,devops engineer,london,Master,DESIGN,Entry-level,0.7116559
+E1008,jessica adams,devops engineer,london,Bachelor,CS,Mid-level,0.7116559
+E1002,ahmed ahmed,devops engineer,los angeles,PhD,AI,Entry-level,0.7116559
+E1004,emily brown,devops engineer,london,Bachelor,STAT,Mid-level,0.7116559
+E1001,john smith,devops engineer,san francisco,Bachelor,IT,Entry-level,0.7116559
+E1007,emily brown,devops engineer,los angeles,Bachelor,CE,Mid-level,0.7116559
+E1006,michael kim,devops engineer,new york,PhD,AI,Mid-level,0.7116559
+E1002,michael kim,devops engineer,san francisco,Bachelor,CS,Entry-level,0.7116559
+E1008,jessica adams,devops engineer,san francisco,Bachelor,STAT,Mid-level,0.7116559
+E1008,alice lee,devops engineer,san francisco,Bachelor,CS,Mid-level,0.7116559
+E1001,robert white,devops engineer,new york,Bachelor,IT,Mid-level,0.7116559
+E1006,alice lee,devops engineer,london,Bachelor,IT,Entry-level,0.7116559
+E1007,jessica adams,devops engineer,london,Bachelor,STAT,Entry-level,0.7116559
+E1008,alice lee,devops engineer,london,Bachelor,IT,Mid-level,0.7116559
+E1002,ahmed ahmed,devops engineer,london,Bachelor,STAT,Entry-level,0.7116559
