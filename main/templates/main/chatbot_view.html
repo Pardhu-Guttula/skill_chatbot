@@ -1,32 +1,169 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Chatbot</title>
-</head>
-<body>
-    <h1>Chatbot</h1>
-    <form method="post" action="{% url 'index' %}">
-        {% csrf_token %}
-        {{ form.as_p }}
-        <input type="submit" value="Submit">
-    </form>
+  <head>
+    <title>SkillTracker</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: rgb(236, 215, 248);
+        font-family: Arial, sans-serif;
+      }
 
-    {% if model_response %}
-        {% if model_response.message %}
-            <p>{{ model_response.message }}</p>
-        {% endif %}
-        
-        {% if model_response.candidates %}
-            <p>Matching candidates:</p>
-            <ul>
-                {% for candidate in model_response.candidates %}
-                    <li>{{ candidate.EmpID }} - {{ candidate.Name }} - {{ candidate.Skill }} - {{ candidate.Location }} - {{ candidate.Experience }}- {{ candidate.Skill_Similarity }} </li>
-                    <!-- Display other candidate information as needed -->
-                {% endfor %}
-            </ul>
-        {% else %}
-            <p>No matching candidates found.</p>
-        {% endif %}
-    {% endif %}
-</body>
+      .form-container {
+        width: 40%;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        overflow-y: auto;
+        max-height: 70vh;
+        text-align: center;
+        border: 2px solid;
+      }
+
+      .output-container {
+        width: 50%;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        overflow-y: auto;
+        max-height: 70vh;
+        text-align: center;
+        border: 2px solid;
+      }
+
+      h1 {
+        margin-bottom: 20px;
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      input[type="text"] {
+        padding: 8px;
+        width: 70%;
+        height: 50px;
+        margin-bottom: 10px;
+        border-radius: 4px;
+        border: 1px solid #ccc;
+      }
+
+      input[type="submit"] {
+        padding: 8px 20px;
+        border-radius: 4px;
+        border: none;
+        background-color: #007bff;
+        color: #fff;
+        cursor: pointer;
+      }
+
+      ul {
+        list-style-type: none;
+        padding: 0;
+        text-align: left;
+      }
+
+      li {
+        margin-bottom: 10px;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="form-container mt-5 mr-3">
+      <h1>SkillTracker</h1>
+      <form method="post" action="{% url 'index' %}">
+        {% csrf_token %} {{ form.as_p }}
+        <input type="submit" id="submitBtn" value="Submit" />
+      </form>
+    </div>
+    <div class="output-container mt-5 ml-3">
+      <h5 style="color: rgba(142, 147, 153, 0.685)">
+        Employee details will appear here...
+      </h5>
+      {% if model_response %} {% if model_response.message %}
+      <p>{{ model_response.message }}</p>
+      {% endif %} {% if model_response.candidates %}
+      <h3>Matching candidates</h3>
+      <table class="table table-bordered">
+        <thead class="thead-dark">
+          <tr>
+            <th>EmpID</th>
+            <th>Name</th>
+            <th>Skill</th>
+            <th>Degree_Type</th>
+            <th>Degree_Field</th>
+            <th>Location</th>
+            <th>Experience</th>
+            <th>Skill Similarity</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for candidate in model_response.candidates %}
+          <tr>
+            <td>{{ candidate.EmpID }}</td>
+            <td>{{ candidate.Name }}</td>
+            <td>{{ candidate.Skill }}</td>
+            <td>{{ candidate.Degree_Type }}</td>
+            <td>{{ candidate.Degree_Field }}</td>
+            <td>{{ candidate.Location }}</td>
+            <td>{{ candidate.Experience }}</td>
+            <td>{{ candidate.Skill_Similarity }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+      {% else %}
+      <h3>No matching candidates found.</h3>
+      {% endif %}
+      
+      {% endif %}
+    </div>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const h5Tag = document.querySelector(".output-container h5");
+        const submitBtn = document.getElementById("submitBtn");
+
+        submitBtn.addEventListener("click", function () {
+          h5Tag.textContent = "Data is loading...";
+
+          setTimeout(function () {
+            h5Tag.style.display = "none";
+          }, 180000); // 2 minutes in milliseconds
+        });
+        setTimeout(function () {
+            h5Tag.style.display = "none";
+          }, 60000);
+      });
+    </script>
+    <!-- <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const submitBtn = document.getElementById("submitBtn");
+        const table = document.querySelector(".output-container table");
+
+        submitBtn.addEventListener("click", function () {
+          const rowCount = table.querySelectorAll("tbody tr").length;
+          console.log("Number of rows:", rowCount);
+
+          // Other operations with the row count if needed
+        });
+      });
+    </script> -->
+  </body>
 </html>

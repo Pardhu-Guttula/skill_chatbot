@@ -59,11 +59,11 @@ def get_model_response(prompt):
         filtered_candidates.to_csv(output_file_path, index=False)
         output = {
             'result': 'success',
-            'message': 'Matching candidates saved to answers.csv',
+            # 'message': 'Matching candidates saved to answers.csv',
             'candidates': filtered_candidates.to_dict('records')  # Convert DataFrame to list of dictionaries
         }
     else:
-        output = {'result': 'failure', 'message': 'No matching candidates found.'}
+        output = {'result': 'failure', 'message': None}
 
     print(output)  # Add this line to print the output
 

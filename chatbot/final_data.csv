@@ -1,4 +1,4 @@
-EmpID,Name,Skill,Location,Degree Type,Degree Field,Experience
+EmpID,Name,Skill,Location,Degree_Type,Degree_Field,Experience
 E1004,emily brown,data scientist,singapore,Bachelor,IT,Mid-level
 E1010,michael kim,ux designer,los angeles,Bachelor,CE,Mid-level
 E1008,jessica adams,ux designer,london,Bachelor,IT,Mid-level
