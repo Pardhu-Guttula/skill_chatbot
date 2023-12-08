@@ -1,44 +1,74 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>SkillTracker</title>
+    {% load static %}
     <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="icon"
+      href="{% static 'main/favicon.ico' %}"
+      type="image/x-icon"
     />
+    <meta charset="utf-8" />
+    <title>NexGen Talent</title>
+    <meta name="theme-color" content="#343541" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Transforming Lever's Insights with AI and NLP Synergy."
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
     <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+      * {
+        padding: 0px;
+        margin: 0px;
+      }
       body {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        margin: 0;
-        background-color: rgb(236, 215, 248);
-        font-family: Arial, sans-serif;
+        /* height: 100vh; */
+        background-color: #343541;
+        font-family: "Poppins", sans-serif;
+        overflow-x: hidden;
       }
-
+      .header {
+        width: 100vw;
+        padding: 10px;
+        /* background-color: black; */
+        color: white;
+        text-align: center;
+        margin-top: 50px;
+      }
       .form-container {
-        width: 40%;
-        padding: 20px;
+        width: 80vw;
+        margin-left: 10vw;
+        padding: 20px 0px;
         background-color: #fff;
         border-radius: 8px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        overflow-y: auto;
-        max-height: 70vh;
-        text-align: center;
-        border: 2px solid;
+        box-shadow: 0 0 10px black;
+        border: 1px solid;
       }
-
+      .user-input {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+      }
       .output-container {
-        width: 50%;
+        width: 80vw;
+        height: 60vh;
+        margin-top: 30px;
+        margin-left: 10vw;
         padding: 20px;
         background-color: #fff;
+        box-shadow: 0 0 10px black;
+        border: 1px solid black;
         border-radius: 8px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         overflow-y: auto;
-        max-height: 70vh;
         text-align: center;
-        border: 2px solid;
+        border: 1px solid;
       }
 
       h1 {
@@ -53,15 +83,15 @@
 
       input[type="text"] {
         padding: 8px;
+        margin-top: 15px;
         width: 70%;
-        height: 50px;
-        margin-bottom: 10px;
         border-radius: 4px;
         border: 1px solid #ccc;
       }
 
       input[type="submit"] {
-        padding: 8px 20px;
+        padding: 0 10px;
+        margin: 10px;
         border-radius: 4px;
         border: none;
         background-color: #007bff;
@@ -84,20 +114,23 @@
     </style>
   </head>
   <body>
+    <div class="header">
+      <header>
+        <h1>NexGen Talent 🚀</h1>
+      </header>
+    </div>
     <div class="form-container mt-5 mr-3">
-      <h1>SkillTracker</h1>
       <form method="post" action="{% url 'index' %}">
-        {% csrf_token %} {{ form.as_p }}
-        <input type="submit" id="submitBtn" value="Submit" />
+        <div class="user-input">
+          {% csrf_token %} {{ form.as_p }}
+          <input type="submit" id="submitBtn" value="Submit" />
+        </div>
       </form>
     </div>
-    <div class="output-container mt-5 ml-3">
-      <h5 style="color: rgba(142, 147, 153, 0.685)">
-        Employee details will appear here...
-      </h5>
-      {% if model_response %} {% if model_response.message %}
-      <p>{{ model_response.message }}</p>
-      {% endif %} {% if model_response.candidates %}
+    {% if model_response %} {% if model_response.message %}
+    <p>{{ model_response.message }}</p>
+    {% endif %} {% if model_response.candidates %}
+    <div class="output-container">
       <h3>Matching candidates</h3>
       <table class="table table-bordered">
         <thead class="thead-dark">
@@ -129,39 +162,37 @@
       </table>
       {% else %}
       <h3>No matching candidates found.</h3>
-      {% endif %} {% endif %}
     </div>
+    {% endif %} {% endif %}
 
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
     <script>
       document.addEventListener("DOMContentLoaded", function () {
         const h5Tag = document.querySelector(".output-container h5");
         const submitBtn = document.getElementById("submitBtn");
-
         submitBtn.addEventListener("click", function () {
           h5Tag.textContent = "Data is loading...";
-
           setTimeout(function () {
             h5Tag.style.display = "none";
           }, 180000); // 2 minutes in milliseconds
         });
+        // Function to hide the placeholder text after 1 minute (60000 milliseconds)
         setTimeout(function () {
           h5Tag.style.display = "none";
         }, 60000);
+        // Function to hide the placeholder text when the dataset is loaded
+        // You might need to call this function when the dataset is actually loaded
+        function hidePlaceholderText() {
+          h5Tag.style.display = "none";
+        }
+        // Call this function 'hidePlaceholderText()' after the dataset is loaded in the frontend
+        // For instance, you might call this function after you render the candidate details
+        // hidePlaceholderText();
       });
     </script>
-    <!-- <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        const submitBtn = document.getElementById("submitBtn");
-        const table = document.querySelector(".output-container table");
-
-        submitBtn.addEventListener("click", function () {
-          const rowCount = table.querySelectorAll("tbody tr").length;
-          console.log("Number of rows:", rowCount);
-
-          // Other operations with the row count if needed
-        });
-      });
-    </script> -->
   </body>
 </html>
