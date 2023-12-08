@@ -129,9 +129,7 @@
       </table>
       {% else %}
       <h3>No matching candidates found.</h3>
-      {% endif %}
-      
-      {% endif %}
+      {% endif %} {% endif %}
     </div>
 
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -148,8 +146,8 @@
           }, 180000); // 2 minutes in milliseconds
         });
         setTimeout(function () {
-            h5Tag.style.display = "none";
-          }, 60000);
+          h5Tag.style.display = "none";
+        }, 60000);
       });
     </script>
     <!-- <script>
