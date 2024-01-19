@@ -3,19 +3,19 @@ import pandas as pd
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 import os
-
+import matplotlib.pyplot as plt 
 # ... (previous code)
 
 
 def get_model_response(prompt):
     # Load your dataset
-    data = pd.read_csv("D:\\OPEN_AI\\New folder\\open_ai\\chatbot\\final_data.csv")
+    data = pd.read_csv("D:\\OPEN_AI\\New folder\\last_data.csv")
 
     # Load a pre-trained sentence transformer model
     model = SentenceTransformer("paraphrase-MiniLM-L6-v2")
 
     # Specify the output file path
-    output_file_path = "D:\\OPEN_AI\\New folder\\open_ai\\chatbot\\answers.csv"
+    output_file_path = "D:\\OPEN_AI\\skill_chatbot\\chatbot\\answers.csv"
     # Clear saved information if the output file exists
     if os.path.exists(output_file_path):
         os.remove(output_file_path)
@@ -56,7 +56,7 @@ def get_model_response(prompt):
     }
 
     def get_skill_similarity(row):
-        skill = row["Skill"]
+        skill = row["Role"]
 
         # Use the prompt_embedding directly, as it's already calculated
         similarity = cosine_similarity(
