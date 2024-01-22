@@ -3,7 +3,6 @@ import pandas as pd
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 import os
-import matplotlib.pyplot as plt 
 # ... (previous code)
 from main.conversation_serializers import ConversationSerializer
 import json

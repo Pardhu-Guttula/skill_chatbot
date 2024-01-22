@@ -11,8 +11,8 @@ services:
     environment:
       - DB_ENGINE=django.db.backends.mysql
       - DB_NAME=nexgen_db
-      - DB_USER=admin
-      - DB_PASSWORD=admin
+      - DB_USER=root
+      - DB_PASSWORD=root
       - DB_HOST=mysql
       - DB_PORT=3306
     restart: always
@@ -26,7 +26,7 @@ services:
     environment:
       - MYSQL_ROOT_PASSWORD=root
       - MYSQL_DATABASE=nexgen_db
-      - MYSQL_USER=root
+      - MYSQL_USER=admin
       - MYSQL_PASSWORD=root
     restart: always
 
