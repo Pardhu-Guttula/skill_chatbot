@@ -50,6 +50,7 @@
         border-radius: 8px;
         box-shadow: 0 0 10px black;
         border: 1px solid;
+        overflow-y: auto;
       }
       .user-input {
         display: flex;
@@ -123,6 +124,15 @@
       <form method="post" action="{% url 'index' %}">
         <div class="user-input">
           {% csrf_token %} {{ form.as_p }}
+          <!-- Skill input with suggestion prompts -->
+          <datalist id="skillSuggestions">
+            <option value="Programming"></option>
+            <option value="Data Analysis"></option>
+            <option value="Project Management"></option>
+            <!-- Add more options as needed -->
+          </datalist>
+
+          <!-- Add other input fields similarly -->
           <input type="submit" id="submitBtn" value="Submit" />
         </div>
       </form>
@@ -163,13 +173,22 @@
         </tbody>
       </table>
       {% else %}
-      <h3 class="output-container ">No matching candidates found.</h3>
+      <h3 class="output-container">No matching candidates found.</h3>
     </div>
-    {% endif %} 
-    {% if visualization %}
-    <img src="data:image/png;base64,{{ visualization }}" alt="Visualization">
+    {% endif %} {% if visualization %}
+    <img src="data:image/png;base64,{{ visualization }}" alt="Visualization" />
     {% endif %}{% endif %}
-
+    <div class="form-container mt-5 mr-3 faq-box">
+      <div class="question" onclick="toggleAnswer('q1')">
+        1. Search for candidates skilled in DevOps.
+      </div>
+      <div class="answer" id="q1">
+        2. Find who are UI/UX designers.
+      </div>
+      <div class="answer" id="q1">
+        3. Find data scientists with Python programming skills.
+      </div>
+    </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"

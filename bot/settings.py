@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "main.apps.MainConfig",
+    
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
@@ -76,26 +78,26 @@ WSGI_APPLICATION = "bot.wsgi.application"
 
 
 ## Development 
-DATABASES = {
-    "default": {
-        "ENGINE": "django.db.backends.sqlite3",
-        "NAME": BASE_DIR / "db.sqlite3",
-    }
-}
-
-### Production  
-# import os
-
 # DATABASES = {
 #     "default": {
-#         "ENGINE": os.environ.get("DB_ENGINE", "django.db.backends.mysql"),
-#         "NAME": os.environ.get("DB_NAME", "nexgen_db"),
-#         "USER": os.environ.get("DB_USER", "admin"),
-#         "PASSWORD": os.environ.get("DB_PASSWORD", "admin"),
-#         "HOST": os.environ.get("DB_HOST", "mysql"),
-#         "PORT": os.environ.get("DB_PORT", "3306"),
+#         "ENGINE": "django.db.backends.sqlite3",
+#         "NAME": BASE_DIR / "db.sqlite3",
 #     }
 # }
+
+### Production  
+import os
+
+DATABASES = {
+    "default": {
+        "ENGINE": os.environ.get("DB_ENGINE", "django.db.backends.mysql"),
+        "NAME": os.environ.get("DB_NAME", "nexgen_db"),
+        "USER": os.environ.get("DB_USER", "root"),
+        "PASSWORD": os.environ.get("DB_PASSWORD", "root"),
+        "HOST": os.environ.get("DB_HOST", "localhost"),
+        "PORT": os.environ.get("DB_PORT", "3306"),
+    }
+}
 
 
 

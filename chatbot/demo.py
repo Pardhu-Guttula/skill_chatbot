@@ -5,9 +5,10 @@ from sklearn.metrics.pairwise import cosine_similarity
 import os
 import matplotlib.pyplot as plt 
 # ... (previous code)
-
-
+from main.conversation_serializers import ConversationSerializer
+import json
 def get_model_response(prompt):
+    # import ipdb;ipdb.set_trace()
     # Load your dataset
     data = pd.read_csv("D:\\OPEN_AI\\New folder\\last_data.csv")
 
@@ -85,7 +86,12 @@ def get_model_response(prompt):
         }
     else:
         output = {"result": "failure", "message": None}
-
+    
+    data = {'user_input':prompt, 'model_response':json.dumps(output)}
+    serializer = ConversationSerializer(data=data)
+    
+    if serializer.is_valid():
+        serializer.save()
     print(output)  # Add this line to print the output
 
     return output
